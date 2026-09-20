@@ -1,3 +1,4 @@
+# 🤖 Text-to-SQL Agent
 # 🗄️ NL2SQL — Ask Your Database in Plain English
 
 Turn natural-language questions into safe, read-only SQL using **Google Gemini**, run them across **multiple databases**, and explore the results in a **Streamlit** chat interface.
