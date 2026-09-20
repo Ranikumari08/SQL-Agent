@@ -1,0 +1,18 @@
+# Secrets
+.env
+
+# Virtual environment
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# Generated sample databases (recreate with: python seed_databases.py)
+databases/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
