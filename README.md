@@ -2,6 +2,7 @@
 # 🗄️ NL2SQL — Ask Your Database in Plain English
 
 Turn natural-language questions into safe, read-only SQL using **Google Gemini**, run them across **multiple databases**, and explore the results in a **Streamlit** chat interface.
+
 ✅ Supports SQLite and PostgreSQL — with an extensible architecture that can be easily extended to MySQL, SQL Server, and other SQL dialects via the DatabaseDialect interface.
 
 Perfect for building AI-powered data exploration tools, internal dashboards, or conversational analytics — no SQL knowledge required.
