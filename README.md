@@ -105,7 +105,7 @@ Copy `.env.example` to `.env` and add your key:
 ```env
 GEMINI_API_KEY=your-real-key-here
 # Optional: choose a different model
-# GEMINI_MODEL=gemini-2.5-flash
+# GEMINI_MODEL=gemini-3.6-flash
 ```
 
 ### 4. Create the sample databases
