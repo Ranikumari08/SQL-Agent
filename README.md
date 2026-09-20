@@ -201,37 +201,6 @@ Then add example questions to `EXAMPLES` in `app.py` if you want sidebar shortcu
 
 ---
 
-## 🛠️ Troubleshooting
-
-| Problem | Fix |
-|---|---|
-| `GEMINI_API_KEY not found` | Create `.env` next to `app.py` with your key. |
-| `Database file(s) missing` | Run `python seed_databases.py`. |
-| `streamlit: command not found` | Activate the virtual environment. |
-| Model not found / 404 | Set `GEMINI_MODEL` in `.env` to a model available to your key. |
-| 429 / quota error | Free-tier rate limit – wait a minute or enable billing. |
-| 503 "model overloaded" | Temporary Gemini load; retry after a few seconds. |
-| Wrong or unexpected SQL | Add a business rule or a corrected few-shot example in `prompts.py`. |
-
----
-
-## 🗺️ Roadmap Ideas
-
-- Schema pruning / retrieval for databases with many tables
-- Embedding-based few-shot example selection
-- Evaluation harness (question → expected result set) for regression testing
-- PostgreSQL / MySQL connectors
-- Query timeouts, caching and user authentication
-- Charts chosen automatically from result shape
-
----
-
 ## 🧰 Tech Stack
 
 Python · Google Gemini (`google-genai`) · Streamlit · SQLite · pandas · python-dotenv
-
----
-
-## 📄 License
-
-Add a license of your choice (for example MIT) as a `LICENSE` file.
